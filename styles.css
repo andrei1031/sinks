@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #0000ff;
 }
 
 h1 {
@@ -32,4 +33,24 @@ img {
 table {
     width: 100%;
     border-collapse: collapse;
+}
+h1{
+    color: #ff0000;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #ff0000;
+}
+a{
+    color: #ff0000;
+}
+
+nav{
+    text-align: center;
+}
+section{
+    color: red;
+    background-color: #0000ff;
+    text-align: center;
 }
