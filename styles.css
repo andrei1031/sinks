@@ -47,10 +47,39 @@ a{
 }
 
 nav{
-    text-align: center;
+    text-align: right;
 }
 section{
     color: red;
     background-color: #0000ff;
+    text-align: center;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flex-container>div{
+    width: 300px;
+    padding: 1cap;
+    margin: 50px;
+    text-align: center;
+
+}
+@media only screen and (max-width: 400px) {
+    img{
+    width: 250px;
+    padding: 1cap;
+    margin: 50px;
+    text-align: center;
+    background-color: #ff0000;
+    
+    }
+
+}
+
+div{
     text-align: center;
 }
