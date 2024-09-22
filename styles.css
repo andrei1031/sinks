@@ -1,23 +1,21 @@
-/* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0000ff;
+    background-color: #000000;
+
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image:  url("images/pexels-expect-best-79873-323780.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
     margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
 }
 
 p {
@@ -35,23 +33,42 @@ table {
     border-collapse: collapse;
 }
 h1{
-    color: #ff0000;
+    color: #ffffff;
     text-align: center;
+    font-family: "Playfair Display";
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0);
 }
 p{
     text-align: center;
-    color: #ff0000;
+    color: #ffffff;
+    font-family: "Gowun Batang";
+    background-color:#00000076;
+
 }
 a{
-    color: #ff0000;
+    color: #ffffff;
+}
+
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.475);
+    color:#ffffff;
+    padding: 0 1rem;
+    ;
 }
 
 nav{
     text-align: right;
+    font-family: "Playfair Display", sans-serif;
+    width:fit-content
+    
 }
 section{
-    color: red;
-    background-color: #0000ff;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
     text-align: center;
 }
 
@@ -59,27 +76,28 @@ section{
     display:flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: red;
+}
+
+img:hover{
+    border: 1px solid #f6e60a;
 }
 
 .flex-container>div{
     width: 300px;
-    padding: 1cap;
     margin: 50px;
     text-align: center;
+
 
 }
 @media only screen and (max-width: 400px) {
     img{
-    width: 250px;
-    padding: 1cap;
-    margin: 50px;
-    text-align: center;
-    background-color: #ff0000;
-    
+        width: 250px;
+        margin: 50px;
     }
-
-}
-
-div{
-    text-align: center;
 }
