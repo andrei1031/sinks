@@ -12,6 +12,7 @@ main{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    border-image: fill 0 linear-gradient(#0003, #000);
 }
 
 h1 {
@@ -28,10 +29,6 @@ img {
     height: auto;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 h1{
     color: #ffffff;
     text-align: center;
@@ -48,21 +45,21 @@ p{
 }
 a{
     color: #ffffff;
+    font-family: "Playfair Display" , sans-serif;
+    font-size: 20px;
 }
 
 
 .nav{
     display: flex;
     justify-content:space-between;
-    background-color: rgba(0, 0, 0, 0.475);
+    background-color: #00000032;
     color:#ffffff;
     padding: 0 1rem;
-    ;
 }
 
 nav{
     text-align: right;
-    font-family: "Playfair Display", sans-serif;
     width:fit-content
     
 }
@@ -95,9 +92,10 @@ img:hover{
 
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     img{
         width: 250px;
         margin: 50px;
     }
 }
+ghp_L9l6W2FfHnUazLN7RrfRaCgpMZzAk110NQDs
