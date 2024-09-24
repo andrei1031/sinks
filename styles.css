@@ -15,9 +15,6 @@ main{
     border-image: fill 0 linear-gradient(#0003, #000);
 }
 
-h1 {
-    margin: 0;
-}
 
 p {
     margin: 0;
@@ -27,6 +24,7 @@ p {
 img {
     width: 100%;
     height: auto;
+    border-radius: 50px;
 }
 
 h1{
@@ -34,6 +32,13 @@ h1{
     text-align: center;
     font-family: "Playfair Display";
     font-size: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Gowun Batang";
     background-color: rgba(0, 0, 0, 0);
 }
 p{
@@ -45,28 +50,26 @@ p{
 }
 a{
     color: #ffffff;
-    font-family: "Playfair Display" , sans-serif;
-    font-size: 20px;
+    font-family: "Playfair Display";
+    font-size: 15px;
 }
-
 
 .nav{
     display: flex;
-    justify-content:space-between;
-    background-color: #00000032;
-    color:#ffffff;
-    padding: 0 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px inherit
 }
 
-nav{
-    text-align: right;
-    width:fit-content
-    
+.nav a{
+    text-decoration:none;
+    color:inherit;
 }
-section{
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    text-align: center;
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
 .flex-container{
@@ -78,11 +81,14 @@ section{
 }
 
 a:hover {
-    color: red;
+    color: rgb(255, 252, 252);
+    transition: 0.9s;
 }
 
 img:hover{
-    border: 1px solid #f6e60a;
+    transition: 0.1s;
+    box-shadow: 100px 50px 100px #3c313c;
+    border-style:outset;
 }
 
 .flex-container>div{
@@ -92,10 +98,16 @@ img:hover{
 
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 430px) {
     img{
-        width: 250px;
+        width: 150px;
         margin: 50px;
+    }
+    p{
+        font-size: 15px;
+    }
+    a{
+        font-size: 10px;
     }
 }
 ghp_L9l6W2FfHnUazLN7RrfRaCgpMZzAk110NQDs
