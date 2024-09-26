@@ -1,24 +1,20 @@
-/* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0000ff;
+    background-color: #000000;
+
 }
 
-h1 {
-    margin: 0;
+main{
+    width: 100%;
+    height: 100vh;
+    background-image:  url("images/pexels-expect-best-79873-323780.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-image: fill 0 linear-gradient(#0003, #000);
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
-}
 
 p {
     margin: 0;
@@ -28,58 +24,97 @@ p {
 img {
     width: 100%;
     height: auto;
+    border-radius: 50px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 h1{
-    color: #ff0000;
+    color: #ffffff;
     text-align: center;
+    font-family: "Playfair Display";
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Gowun Batang";
+    background-color: rgba(0, 0, 0, 0);
+}
+h3{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Gowun Batang",sans-serif;
+    background-color: rgba(0, 0, 0, 0);
 }
 p{
     text-align: center;
-    color: #ff0000;
+    color: #ffffff;
+    font-family: "Gowun Batang";
+    background-color:#00000076;
+
 }
 a{
-    color: #ff0000;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 13px;
 }
 
-nav{
-    text-align: right;
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin:15px;
+    padding: 1px;
 }
-section{
-    color: red;
-    background-color: #0000ff;
-    text-align: center;
+
+.nav a{
+    text-decoration:none;
+    color:inherit;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 13px;
 }
 
 .flex-container{
     display:flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: rgb(255, 252, 252);
+    transition: 0.7s;
+    text-decoration:underline;
+}
+
+img:hover{
+    transition: 0.1s;
+    box-shadow: 100px 50px 100px #3c313c;
+    border-style:ridge;
 }
 
 .flex-container>div{
     width: 300px;
-    padding: 1cap;
     margin: 50px;
     text-align: center;
 
+
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
     img{
-    width: 250px;
-    padding: 1cap;
-    margin: 50px;
-    text-align: center;
-    background-color: #ff0000;
-    
+        width: 150px;
+        margin: 50px;
     }
-
+    p{
+        font-size: 15px;
+    }
+    a{
+        font-size: 10px;
+    }
 }
-
-div{
-    text-align: center;
-}
+ghp_L9l6W2FfHnUazLN7RrfRaCgpMZzAk110NQDs
